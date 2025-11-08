@@ -1,0 +1,12 @@
+[submodule "third-party/fmt"]
+	path = third-party/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "third-party/spdlog"]
+	path = third-party/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "third-party/concurrentqueue"]
+	path = third-party/concurrentqueue
+	url = https://github.com/cameron314/concurrentqueue.git
+[submodule "third-party/CLI11"]
+	path = third-party/CLI11
+	url = https://github.com/CLIUtils/CLI11.git
