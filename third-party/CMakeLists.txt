@@ -8,3 +8,7 @@ add_library(mob::fmt_header ALIAS fmt_header)
 add_library(spdlog_header INTERFACE)
 target_include_directories(spdlog_header INTERFACE spdlog/include)
 add_library(mob::spdlog_header ALIAS spdlog_header)
+
+add_library(concurrentqueue INTERFACE)
+target_include_directories(concurrentqueue INTERFACE concurrentqueue)
+add_library(mob::concurrentqueue ALIAS concurrentqueue)

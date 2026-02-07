@@ -37,3 +37,13 @@ target_link_libraries(RandomTests
         GTest::gtest_main
         mob::random
 )
+
+# Task Tests
+add_executable(TaskTests TaskTests.cpp)
+add_test(NAME TaskTests COMMAND TaskTests)
+target_link_libraries(TaskTests
+    PRIVATE
+        GTest::gtest
+        GTest::gtest_main
+        mob::task
+)
