@@ -1,4 +1,4 @@
-add_executable(ImportTest ImportTest.cpp)
+add_executable(ImportTest ImportTests.cpp)
 
 add_test(import_test ImportTest)
 

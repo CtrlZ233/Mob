@@ -10,3 +10,6 @@
 [submodule "third-party/CLI11"]
 	path = third-party/CLI11
 	url = https://github.com/CLIUtils/CLI11.git
+[submodule "third-party/cpp-stub"]
+	path = third-party/cpp-stub
+	url = https://github.com/coolxv/cpp-stub.git
